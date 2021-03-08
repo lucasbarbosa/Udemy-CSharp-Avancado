@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 
 namespace Biblioteca
 {
@@ -6,10 +7,12 @@ namespace Biblioteca
     {
         public static string CaminhoBase()
         {
-            var path = @"C:\Lucas.Teixeira.Files\TestsProjects\Udemy\CSharpAvancado\_Arquivos\";
             // var path = @"C:\Estudos\Dotnet\Udemy\CSharpAvancado\_Arquivos\";
-			
-			return path;
+            var path = Path.Combine(
+                            Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.Parent.FullName, 
+                            @"Arquivos\");
+
+            return path;
         }
 
         public static StreamReader ArquivoLer(string arquivo)

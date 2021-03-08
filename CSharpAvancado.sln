@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2000
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00_Biblioteca", "01 - Serialização\00_Biblioteca\00_Biblioteca.csproj", "{6B29D397-150E-4638-A1E1-6FD55982F763}"
 EndProject
@@ -19,13 +19,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Avançados", "02 - Ava
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Generics", "02 - Avançados\05_Generics\05_Generics.csproj", "{44362299-7840-43D9-96A3-DAB25170136C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Arquivos", "_Arquivos", "{D86D7BA2-0B38-498C-B5D1-3C9B55236AE0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arquivos", "Arquivos", "{D86D7BA2-0B38-498C-B5D1-3C9B55236AE0}"
 	ProjectSection(SolutionItems) = preProject
-		00_Arquivos\Carro.txt = 00_Arquivos\Carro.txt
-		00_Arquivos\Casa.txt = 00_Arquivos\Casa.txt
-		00_Arquivos\SerializarJSON.json = 00_Arquivos\SerializarJSON.json
-		00_Arquivos\SerializarXML.xml = 00_Arquivos\SerializarXML.xml
-		00_Arquivos\Usuario.txt = 00_Arquivos\Usuario.txt
+		Arquivos\Carro.txt = Arquivos\Carro.txt
+		Arquivos\Casa.txt = Arquivos\Casa.txt
+		Arquivos\SerializarJSON.json = Arquivos\SerializarJSON.json
+		Arquivos\SerializarXML.xml = Arquivos\SerializarXML.xml
+		Arquivos\Usuario.txt = Arquivos\Usuario.txt
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_VarDynamic", "02 - Avançados\06_VarDynamic\06_VarDynamic.csproj", "{0DE7CDEA-F65F-4A31-9CCF-1581DDBD36B0}"
